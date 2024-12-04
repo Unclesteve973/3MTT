@@ -18,7 +18,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 nav{
     display: inline-flex;
@@ -32,7 +32,7 @@ nav a{
     font-size: 16px;
     font-family: Helvetica, Verdana, Arial, sans-serif;
 }
-nav button{
+header button{
     color: #ffffff;
     background: #26a65b;
     height: 40px;
@@ -450,8 +450,11 @@ section{
     .img-image2 img{
         height: 380px;
     }
+    .img-image2 img{
+        height: 300px;
+    }
     .parent4 div h2{
-        width: 14ch;
+        width: 13ch ;
         margin-left: -50px;
     }
     .parent6{
@@ -464,6 +467,10 @@ section{
     }
     .workforce{
         flex-wrap: wrap;
+    }
+    .workforce-text{
+        flex-wrap: wrap;
+        width:400px
     }
     .meeting{
         flex-wrap: wrap;
